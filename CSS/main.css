@@ -1,0 +1,350 @@
+body {
+  background-color: #111111;
+  font-family: sans-serif;
+}
+
+/*DOUBLE-COLOR HEADING STYLE*/
+
+.double-color-heading {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.double-color-heading span {
+  color: #ffb400;
+}
+
+/*SUB HEADING STYLE*/
+
+.sub-heading {
+  color: #f0f0f0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 32px
+}
+
+/*Horizontal Rule style*/
+
+hr {
+  width: 25%;
+  border: 1px solid white;
+  margin: 20px auto 40px;
+}
+
+
+
+p {
+  color: white;
+}
+
+table li,
+th,
+td {
+  color: white;
+}
+
+/*NAVIGATION BAR*/
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: black;
+  padding: 14px 16px;
+  border-left: 1px solid white;
+}
+
+header li a:hover,
+header li a:active {
+  color: #333;
+  background-color: #111;
+}
+
+/*ABOUT SECTION starts here*/
+
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.personal-info {
+  margin-right: 20%;
+  color: #f0f0f0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.personal-info h3 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.personal-info span {
+  font-weight: bold;
+}
+
+.achievements {
+  width: 50%;
+}
+
+.achievements h3 {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  border: 1px solid #4b4f58;
+  margin: 10px;
+  padding: 20px;
+  color: #ffb400;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.achievements span {
+  color: #f0f0f0;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+.resume a {
+
+  width: 15%;
+  border: 1px solid #ffb400;
+  padding: 20px 20px;
+  border-radius: 35px;
+  color: #f0f0f0;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/**SKILLS SECTION starts here*/
+#skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #f0f0f0;
+}
+
+#skills-container div {
+  width: 150px;
+  height: 150px;
+  border: 10px solid #ffb400;
+  border-radius: 200px;
+  text-align: center;
+  margin: 30px 5%;
+}
+
+#skills-container div p {
+  font-size: 18px;
+  padding: 20px 0 0;
+}
+
+#skills-container div p span {
+  display: block;
+  font-size: 30px;
+  font-weight: ;
+}
+
+
+
+
+
+/*EDUCATION & WORK EXPERIENCE*/
+#edu-expe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#edu-expe ul {
+  width: 450px;
+  margin: 0 40px;
+}
+
+#edu-expe>ul>li div {
+  margin-bottom: 30px;
+}
+
+.education li,
+.experience li {
+  list-style-type: square;
+  color: #ffbd00;
+}
+
+.education h2,
+.experience h2 {
+  color: #ffbd00;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.education h3,
+.experience h3 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+}
+
+.education p span,
+.experience p span {
+  display: block;
+  margin: 5px 0;
+  text-decoration: underline;
+}
+
+/*SERVICES SECTION*/
+#services {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 5%
+}
+
+#services div {
+  width: 300px;
+  height: 380px;
+  margin: 30px 20px;
+  padding: 20px 20px 0;
+  border: 1px solid #4b4f58;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#services div:first-child {
+  margin-left: 50px;
+}
+
+#services div h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#services div p {
+  color: #f0f0f0;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+#services div a {
+  border: 1px solid #ffb400;
+  margin: 0;
+  padding: 12px 20px;
+  border-radius: 24px;
+  color: #f0f0f0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+#services .icon {
+  display: inline-block;
+  background-color: #ffb400;
+  padding: 15px;
+  margin: 0;
+  border-radius: 100px;
+  width: 55px;
+  height: auto;
+}
+
+#services div img {
+  width: 50px;
+  height: 50px;
+}
+
+
+/*PORTFOLIO SECTION*/
+
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#portfolio>div {
+  width: 350px;
+  height: 300px;
+  margin: 10px;
+}
+
+#portfolio>div img {
+  display: block;
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/*CLIENT REVIEWS SECTION*/
+
+#reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#reviews div {
+  border: 1px solid #4b4f58;
+  margin: 10px;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+}
+
+#reviews>div .client {
+  margin: 30px auto 0;
+}
+
+#reviews div img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+#reviews div h3 {
+  color: #ffb400;
+  margin: 5px 0 0;
+  font-size: 24px;
+}
+
+#reviews div .client-post {
+  font-size: 14px;
+  margin: 2px;
+}
